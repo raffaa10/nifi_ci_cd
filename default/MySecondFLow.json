@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1771256741012,
+    "description" : "",
+    "identifier" : "MySecondFLow",
+    "lastModifiedTimestamp" : 1771256741012,
+    "name" : "MySecondFLow",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
