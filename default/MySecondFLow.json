@@ -146,6 +146,7 @@
       },
       "properties" : {
         "Store State" : "Do not store state",
+        "attribute-3" : "3",
         "attribute-2" : "2",
         "attribute-1" : "1",
         "Cache Value Lookup Cache Size" : "100"
@@ -163,6 +164,13 @@
           "dynamic" : false,
           "identifiesControllerService" : false,
           "name" : "Store State",
+          "sensitive" : false
+        },
+        "attribute-3" : {
+          "displayName" : "attribute-3",
+          "dynamic" : true,
+          "identifiesControllerService" : false,
+          "name" : "attribute-3",
           "sensitive" : false
         },
         "attribute-2" : {
@@ -504,6 +512,6 @@
   "snapshotMetadata" : {
     "author" : "admin",
     "flowIdentifier" : "MySecondFLow",
-    "timestamp" : 1771277606275
+    "timestamp" : 1771278646968
   }
 }
