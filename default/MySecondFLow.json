@@ -115,7 +115,7 @@
     "inputPorts" : [ ],
     "labels" : [ ],
     "maxConcurrentTasks" : 1,
-    "name" : "MySecondFlow_V1.0.1",
+    "name" : "MySecondFlow_V1.0.2",
     "outputPorts" : [ ],
     "position" : {
       "x" : 0.0,
@@ -129,7 +129,7 @@
       "bundle" : {
         "artifact" : "nifi-update-attribute-nar",
         "group" : "org.apache.nifi",
-        "version" : "2.8.0"
+        "version" : "2.7.0"
       },
       "comments" : "",
       "componentType" : "PROCESSOR",
@@ -146,6 +146,7 @@
       },
       "properties" : {
         "Store State" : "Do not store state",
+        "attribute-2" : "2",
         "attribute-1" : "1",
         "Cache Value Lookup Cache Size" : "100"
       },
@@ -162,6 +163,13 @@
           "dynamic" : false,
           "identifiesControllerService" : false,
           "name" : "Store State",
+          "sensitive" : false
+        },
+        "attribute-2" : {
+          "displayName" : "attribute-2",
+          "dynamic" : true,
+          "identifiesControllerService" : false,
+          "name" : "attribute-2",
           "sensitive" : false
         },
         "attribute-1" : {
@@ -202,7 +210,7 @@
       "bundle" : {
         "artifact" : "nifi-standard-nar",
         "group" : "org.apache.nifi",
-        "version" : "2.8.0"
+        "version" : "2.7.0"
       },
       "comments" : "",
       "componentType" : "PROCESSOR",
@@ -313,7 +321,7 @@
       "bundle" : {
         "artifact" : "nifi-standard-nar",
         "group" : "org.apache.nifi",
-        "version" : "2.8.0"
+        "version" : "2.7.0"
       },
       "comments" : "",
       "componentType" : "PROCESSOR",
@@ -402,7 +410,7 @@
       "bundle" : {
         "artifact" : "nifi-standard-nar",
         "group" : "org.apache.nifi",
-        "version" : "2.8.0"
+        "version" : "2.7.0"
       },
       "comments" : "",
       "componentType" : "PROCESSOR",
@@ -494,8 +502,8 @@
   "parameterContexts" : { },
   "parameterProviders" : { },
   "snapshotMetadata" : {
-    "author" : "c6a1c2a5-8b75-4fc2-8bec-fa5bf0b120ac",
+    "author" : "admin",
     "flowIdentifier" : "MySecondFLow",
-    "timestamp" : 1771273851941
+    "timestamp" : 1771277606275
   }
 }
