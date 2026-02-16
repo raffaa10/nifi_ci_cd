@@ -115,7 +115,7 @@
     "inputPorts" : [ ],
     "labels" : [ ],
     "maxConcurrentTasks" : 1,
-    "name" : "MySecondFLow",
+    "name" : "MySecondFlow_V1.0.1",
     "outputPorts" : [ ],
     "position" : {
       "x" : 0.0,
@@ -415,7 +415,7 @@
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -392.0,
-        "y" : -552.0
+        "y" : -544.0
       },
       "properties" : {
         "File Size" : "0B",
@@ -496,6 +496,6 @@
   "snapshotMetadata" : {
     "author" : "c6a1c2a5-8b75-4fc2-8bec-fa5bf0b120ac",
     "flowIdentifier" : "MySecondFLow",
-    "timestamp" : 1771273747135
+    "timestamp" : 1771273851941
   }
 }
