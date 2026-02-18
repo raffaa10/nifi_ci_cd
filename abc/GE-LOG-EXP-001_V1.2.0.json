@@ -1,5 +1,128 @@
-  {
-    "flowContents" : {
-      "name" : "GE-LOG-EXP-001_V1.2.0"
-    }
-  }   
+{
+  "externalControllerServices" : { },
+  "flow" : {
+    "createdTimestamp" : 0,
+    "identifier" : "GE-LOG-EXP-001_V1.2.0",
+    "lastModifiedTimestamp" : 0,
+    "name" : "GE-LOG-EXP-001_V1.2.0",
+    "versionCount" : 0
+  },
+  "flowContents" : {
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ ],
+    "controllerServices" : [ ],
+    "defaultBackPressureDataSizeThreshold" : "1 GB",
+    "defaultBackPressureObjectThreshold" : 10000,
+    "defaultFlowFileExpiration" : "0 sec",
+    "executionEngine" : "INHERITED",
+    "externalControllerServiceReferences" : { },
+    "flowFileConcurrency" : "UNBOUNDED",
+    "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+    "funnels" : [ ],
+    "identifier" : "flow-contents-group",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "maxConcurrentTasks" : 1,
+    "name" : "GE-LOG-EXP-001_V1.2.0",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 0.0,
+      "y" : 0.0
+    },
+    "processGroups" : [ ],
+    "processors" : [ {
+      "autoTerminatedRelationships" : [ ],
+      "backoffMechanism" : "PENALIZE_FLOWFILE",
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "2.7.0"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "d4a12d16-3ffb-348e-a158-18e75fe2a068",
+      "maxBackoffPeriod" : "10 mins",
+      "name" : "AttributesToCSV",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : -208.0,
+        "y" : -204.0
+      },
+      "properties" : {
+        "Include Schema" : "false",
+        "Destination" : "flowfile-attribute",
+        "Null Value" : "false",
+        "Include Core Attributes" : "true"
+      },
+      "propertyDescriptors" : {
+        "Include Schema" : {
+          "displayName" : "Include Schema",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Include Schema",
+          "sensitive" : false
+        },
+        "Attributes Regular Expression" : {
+          "displayName" : "Attributes Regular Expression",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Attributes Regular Expression",
+          "sensitive" : false
+        },
+        "Destination" : {
+          "displayName" : "Destination",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Destination",
+          "sensitive" : false
+        },
+        "Null Value" : {
+          "displayName" : "Null Value",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Null Value",
+          "sensitive" : false
+        },
+        "Attribute List" : {
+          "displayName" : "Attribute List",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Attribute List",
+          "sensitive" : false
+        },
+        "Include Core Attributes" : {
+          "displayName" : "Include Core Attributes",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Include Core Attributes",
+          "sensitive" : false
+        }
+      },
+      "retriedRelationships" : [ ],
+      "retryCount" : 10,
+      "runDurationMillis" : 0,
+      "scheduledState" : "ENABLED",
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.AttributesToCSV",
+      "yieldDuration" : "1 sec"
+    } ],
+    "remoteProcessGroups" : [ ],
+    "scheduledState" : "ENABLED",
+    "statelessFlowTimeout" : "1 min"
+  },
+  "flowEncodingVersion" : "1.0",
+  "latest" : false,
+  "parameterContexts" : { },
+  "parameterProviders" : { },
+  "snapshotMetadata" : {
+    "author" : "admin",
+    "flowIdentifier" : "GE-LOG-EXP-001_V1.2.0",
+    "timestamp" : 1771434771279
+  }
+}
