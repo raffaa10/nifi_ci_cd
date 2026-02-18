@@ -1,5 +1,34 @@
   {
     "flow" : {
-      "name" : "AB/Flow-AB_V1.0.0"
+      "name" : "GE-LOG-EXP-001_V1.2.0"
+    },
+    "flowContents" : {
+      "comments" : "",
+      "componentType" : "PROCESS_GROUP",
+      "connections" : [ ],
+      "controllerServices" : [ ],
+      "defaultBackPressureDataSizeThreshold" : "1 GB",
+      "defaultBackPressureObjectThreshold" : 10000,
+      "defaultFlowFileExpiration" : "0 sec",
+      "executionEngine" : "INHERITED",
+      "externalControllerServiceReferences" : { },
+      "flowFileConcurrency" : "UNBOUNDED",
+      "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+      "funnels" : [ ],
+      "identifier" : "flow-contents-group",
+      "inputPorts" : [ ],
+      "labels" : [ ],
+      "maxConcurrentTasks" : 1,
+      "name" : "GE-LOG-EXP-001_V1.2.0",
+      "outputPorts" : [ ],
+      "position" : {
+        "x" : 0.0,
+        "y" : 50.0
+      },
+      "processGroups" : [ ],
+      "processors" : [ ],
+      "remoteProcessGroups" : [ ],
+      "scheduledState" : "ENABLED",
+      "statelessFlowTimeout" : "1 min"
     }
   }   
