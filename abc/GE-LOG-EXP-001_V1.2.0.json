@@ -3,8 +3,6 @@
       "name" : "GE-LOG-EXP-001_V1.2.0"
     },
     "flowContents" : {
-      "componentType" : "PROCESS_GROUP",
-      "name" : "GE-LOG-EXP-001_V1.2.0",
       "position" : {
         "x" : 0.0,
         "y" : 50.0
